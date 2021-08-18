@@ -1,0 +1,111 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 2
+   
+   Bike the Mountains Tour Style Sheet
+   Author: Tadesse Atalay
+   Date:   01/25/21
+   
+   Filename: mw_styles.css
+
+*/
+
+
+/* Structural Styles */
+html{
+  background-color: rgb(173, 189, 277);
+}
+body{
+  background-color: rgb(227, 210, 173);font-family: Century, sans-serif;
+}
+body > footer{
+  background-color: (208, 184, 109);
+}
+address{
+  font-weight: normal;
+  font-size: 0.9em;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Heading Styles */
+h1 {
+  font-weight: normal;
+
+}
+h2 {
+  font-weight: normal;
+}
+
+
+
+/* Navigation Styles */
+nav > ul
+{
+list-style-type: none;
+line-height: 2em; /* to set line height */
+font-size: 0.9em;
+}
+
+/* select all unvisited links */
+nav ul a:link
+{
+text-decoration: none;
+color: rgb(43, 59, 125);
+}
+
+
+nav ul a:visited
+{
+text-decoration: none;
+color: rgb(43, 59, 125);
+
+nav ul a:hover
+{
+color:rgb(212, 35, 35);
+}
+
+
+nav ul a:active
+{
+color:rgb(212, 35, 35);
+}
+
+/* Article Styles */
+#tour_summary h1 {
+  font-size: 2.2em;
+  letter-spacing:0.2em;
+}
+  
+#tour_summary > p > {
+  font-size:1.1em;
+}
+  
+p:first-of-type::first-line#tour_summay {
+  font-size:1.2em;
+  font-variant: small-caps;
+}
+
+
+/* Aside Styles */
+#tour_itenerary h1 {
+font-size: 1.2em;
+}
+#tour_itenerary h2 {
+font-size:0.9em;
+}
+#tour_itenerary > p > {
+font-size:0.8em;
+}
+
+
+/* Blockquote Styles */
+
+
+
+
+
+
